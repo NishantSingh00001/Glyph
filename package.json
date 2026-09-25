@@ -1,0 +1,27 @@
+{
+  "name": "glyph",
+  "version": "1.0.0",
+  "description": "Draw a digit and watch two neural networks read it: TensorFlow models served in the browser and on Netlify Functions, with a community dataset and a Gemini second opinion.",
+  "scripts": {
+    "test": "node scripts/js-eval.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "train": "cd python && python3 train.py",
+    "parity": "cd python && python3 parity.py"
+  },
+  "author": "Nishant Singh",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.1",
+    "framer-motion": "^11.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.4.21"
+  }
+}
